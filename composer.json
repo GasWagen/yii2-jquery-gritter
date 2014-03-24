@@ -1,0 +1,43 @@
+{
+	"name": "rmrevin/yii2-jquery-gritter",
+	"description": "Yii2 asset bundle for https://github.com/jboesch/Gritter/",
+	"keywords": ["yii2", "asset", "bundle", "gritter", "notify", "flash", "message"],
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+	"minimum-stability": "dev",
+	"support": {
+		"issues": "https://github.com/rmrevin/yii2-jquery-gritter/issues?state=open",
+		"wiki": "https://github.com/rmrevin/yii2-jquery-gritter/wiki",
+		"source": "https://github.com/rmrevin/yii2-jquery-gritter"
+	},
+	"authors": [
+		{
+			"name": "Revin Roman",
+			"email": "xgismox@gmail.com",
+			"homepage": "http://phptime.ru/"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"jboesch/gritter": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"rmrevin\\yii\\jquery\\gritter": ""
+		}
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "jboesch/gritter",
+				"version": "dev-master",
+				"source": {
+					"type": "git",
+					"url": "http://github.com/jboesch/Gritter",
+					"reference": "master"
+				}
+			}
+		}
+	]
+}
