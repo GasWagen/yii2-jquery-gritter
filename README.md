@@ -48,7 +48,7 @@ class AppAsset extends AssetBundle
 
 	public $depends = [
 		// ...
-		'rmrevin\yii\jquery\gritter\AssetBundle'
+		'\rmrevin\yii\jquery\gritter\AssetBundle'
 	];
 }
 
