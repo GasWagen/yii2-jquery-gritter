@@ -37,7 +37,7 @@ rmrevin\yii\jquery\gritter\AssetBundle::register($this);
 
 ```
 
-od as dependency in your asset bundle
+or as dependency in your asset bundle
 ```php
 <?
 // ...
