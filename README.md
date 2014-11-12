@@ -7,7 +7,7 @@ Add in `composer.json`:
 ```
 {
     "require": {
-        "GasWagen/yii2-jquery-gritter": "*"
+        "rmrevin/yii2-jquery-gritter": "*"
     },
     "repositories": [
     	{
